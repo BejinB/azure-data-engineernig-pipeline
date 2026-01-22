@@ -24,7 +24,7 @@ Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline
 - Power BI Desktop
 
 ### 🔄 Data Flow
-1. **Bronze Layer – Raw Data**
+#### 1. Bronze Layer – Raw Data
 
    -Ingested using Azure Data Factory
    -Dynamic pipelines with Lookup + ForEach + Copy activity
