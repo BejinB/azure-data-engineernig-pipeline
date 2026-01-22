@@ -26,22 +26,24 @@ Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline
 ## 🔄 Data Flow
 ### 1. Bronze Layer – Raw Data
 
-     **-Ingested using Azure Data Factory**
+**-Ingested using Azure Data Factory**
    
-     **-Dynamic pipelines with Lookup + ForEach + Copy activity**
+**-Dynamic pipelines with Lookup + ForEach + Copy activity**
    
    ![WhatsApp Image 2026-01-21 at 4 33 26 PM](https://github.com/user-attachments/assets/4dfabd6f-f36b-4a6e-b6d5-362548b888ac)
 
-   **-Stored as raw CSV files in ADLS Gen2**
+<img width="1600" height="760" alt="image" src="https://github.com/user-attachments/assets/240dd1b1-f2f3-49f2-91e5-df582f6e7437" />
+
+**-Stored as raw CSV files in ADLS Gen2**
 
 
 <img width="1600" height="762" alt="image" src="https://github.com/user-attachments/assets/aa4de290-ef8c-4276-9b8c-57ee393953cd" />
 
 3. **Silver Layer – Cleaned & Transformed**
 
-   -Processed using Azure Databricks (PySpark)
+   **-Processed using Azure Databricks (PySpark)
    -Schema inference, cleansing, and transformations applied
-   -Stored in Parquet format for optimized analytics
+   -Stored in Parquet format for optimized analytics**
 
 <img width="1600" height="762" alt="image" src="https://github.com/user-attachments/assets/cce2c495-375d-44c7-9ff4-4d339d6b5036" />
 <img width="1600" height="761" alt="image" src="https://github.com/user-attachments/assets/034f1333-bd12-4b52-a134-f09ff5253489" />
