@@ -34,10 +34,12 @@ Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline
 
 <img width="1600" height="760" alt="image" src="https://github.com/user-attachments/assets/240dd1b1-f2f3-49f2-91e5-df582f6e7437" />
 
+
 **-Stored as raw CSV files in ADLS Gen2**
 
 
 <img width="1600" height="762" alt="image" src="https://github.com/user-attachments/assets/aa4de290-ef8c-4276-9b8c-57ee393953cd" />
+
 
 3. **Silver Layer – Cleaned & Transformed**
 
@@ -47,8 +49,10 @@ Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline
    
    **-Stored in Parquet format for optimized analytics**
 
+
 <img width="1600" height="761" alt="image" src="https://github.com/user-attachments/assets/034f1333-bd12-4b52-a134-f09ff5253489" />
 <img width="1600" height="762" alt="image" src="https://github.com/user-attachments/assets/8547fbf7-32b3-41b0-9add-0a1149755cd4" />
+
 
 4. **Gold Layer – Curated & Analytics Ready**
 
@@ -58,11 +62,13 @@ Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline
 
    **-Views on Silver data using OPENROWSET**
    
-<img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/350ed720-4e41-48df-9f87-7886a0a2d2b4" />
+   <img width="1600" height="760" alt="image" src="https://github.com/user-attachments/assets/bcef3eb5-e775-479d-9035-e2a317f6d13a" />
+
 
    **-External tables materialized into Gold**
       
    <img width="1600" height="764" alt="image" src="https://github.com/user-attachments/assets/b8f4c520-a92c-47eb-98d7-c320d1876dde" />
+   <img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/350ed720-4e41-48df-9f87-7886a0a2d2b4" />
 
 
    **-Optimized for BI consumption**
@@ -80,6 +86,7 @@ Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline
    -Total Orders by Date
    -Customer Growth Trends
    -Sales Performance over Years
+   
 <img width="1600" height="849" alt="image" src="https://github.com/user-attachments/assets/87e350c0-a4d9-4d53-8c7e-9f3f44f19600" />
 
 
