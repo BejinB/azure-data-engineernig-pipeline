@@ -41,38 +41,41 @@ Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline
 
 3. **Silver Layer – Cleaned & Transformed**
 
-   **-Processed using Azure Databricks (PySpark)
-   -Schema inference, cleansing, and transformations applied
-   -Stored in Parquet format for optimized analytics**
+   **-Processed using Azure Databricks (PySpark)**
+   
+   **-Schema inference, cleansing, and transformations applied**
+   
+   **-Stored in Parquet format for optimized analytics**
 
-<img width="1600" height="762" alt="image" src="https://github.com/user-attachments/assets/cce2c495-375d-44c7-9ff4-4d339d6b5036" />
 <img width="1600" height="761" alt="image" src="https://github.com/user-attachments/assets/034f1333-bd12-4b52-a134-f09ff5253489" />
 <img width="1600" height="762" alt="image" src="https://github.com/user-attachments/assets/8547fbf7-32b3-41b0-9add-0a1149755cd4" />
 
 4. **Gold Layer – Curated & Analytics Ready**
 
-   -Implemented using Azure Synapse Serverless SQL
+   **-Implemented using Azure Synapse Serverless SQL**
 
-   -Created:
+   **-Created:**
 
-      -Views on Silver data using OPENROWSET
+   **-Views on Silver data using OPENROWSET**
+   
 <img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/350ed720-4e41-48df-9f87-7886a0a2d2b4" />
 
-      -External tables materialized into Gold
+   **-External tables materialized into Gold**
+      
    <img width="1600" height="764" alt="image" src="https://github.com/user-attachments/assets/b8f4c520-a92c-47eb-98d7-c320d1876dde" />
 
 
-   -Optimized for BI consumption
+   **-Optimized for BI consumption**
 
 6. **Analytics & Visualization**
 
-   -Power BI Desktop connected using Synapse SQL Endpoint
+   **-Power BI Desktop connected using Synapse SQL Endpoint**
 
-   -Built dashboards on Gold external tables
+   **-Built dashboards on Gold external tables**
 
-   -Enables serverless, pay-per-query analytics
+   **-Enables serverless, pay-per-query analytics**
 
-📈 Example Insights:
+📈 **Example Insights:**
 
    -Total Orders by Date
    -Customer Growth Trends
