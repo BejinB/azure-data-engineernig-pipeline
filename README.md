@@ -6,7 +6,7 @@
 
 The objective is to ingest raw data into a data lake using ADF, transform data using
 Databricks (PySpark) to create curated Silver datasets, expose Gold-layer data using
-Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline follows the Medallion Architecture (Bronze–Silver–Gold) to ingest, transform, curate, and analyze data using modern Azure services.
+Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline follows the **Medallion Architecture (Bronze–Silver–Gold)** to ingest, transform, curate, and analyze data using modern Azure services.
 
 ---
 
