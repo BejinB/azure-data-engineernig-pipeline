@@ -11,6 +11,7 @@ Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline
 ---
 
 ## 🏗️ Architecture
+<img width="1024" height="585" alt="image" src="https://github.com/user-attachments/assets/1ad49f5c-5a0a-4dd0-a8c5-2c2b91779547" />
 
 ---
 ## 🛠️ Technologies Used
@@ -57,14 +58,14 @@ SQL & PySpark
 - Created:
    - Views on Silver data using OPENROWSET
    
-   <img width="1600" height="760" alt="image" src="https://github.com/user-attachments/assets/bcef3eb5-e775-479d-9035-e2a317f6d13a" />
+<img width="1600" height="760" alt="image" src="https://github.com/user-attachments/assets/bcef3eb5-e775-479d-9035-e2a317f6d13a" />
 
 
    - External tables materialized into Gold
 
       
-   <img width="1600" height="764" alt="image" src="https://github.com/user-attachments/assets/b8f4c520-a92c-47eb-98d7-c320d1876dde" />
-   <img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/350ed720-4e41-48df-9f87-7886a0a2d2b4" />
+<img width="1600" height="764" alt="image" src="https://github.com/user-attachments/assets/b8f4c520-a92c-47eb-98d7-c320d1876dde" />
+<img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/350ed720-4e41-48df-9f87-7886a0a2d2b4" />
 
 
 -Optimized for BI consumption
