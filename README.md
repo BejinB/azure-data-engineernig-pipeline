@@ -41,7 +41,7 @@ Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline
 <img width="1600" height="762" alt="image" src="https://github.com/user-attachments/assets/aa4de290-ef8c-4276-9b8c-57ee393953cd" />
 
 
-3. **Silver Layer – Cleaned & Transformed**
+### 2. Silver Layer – Cleaned & Transformed
 
    **-Processed using Azure Databricks (PySpark)**
    
@@ -54,7 +54,7 @@ Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline
 <img width="1600" height="762" alt="image" src="https://github.com/user-attachments/assets/8547fbf7-32b3-41b0-9add-0a1149755cd4" />
 
 
-4. **Gold Layer – Curated & Analytics Ready**
+### 3. Gold Layer – Curated & Analytics Ready
 
    **-Implemented using Azure Synapse Serverless SQL**
 
@@ -73,7 +73,7 @@ Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline
 
    **-Optimized for BI consumption**
 
-6. **Analytics & Visualization**
+### 4. Analytics & Visualization
 
    **-Power BI Desktop connected using Synapse SQL Endpoint**
 
