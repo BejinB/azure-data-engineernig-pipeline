@@ -2,7 +2,7 @@
 ## End-to-End Azure Data Engineering Pipeline using ADF, Databricks, ADLS Gen2, Synapse & Power BI
 
 
-### 📌 Project Overview
+## 📌 Project Overview
 
 The objective is to ingest raw data into a data lake using ADF, transform data using
 Databricks (PySpark) to create curated Silver datasets, expose Gold-layer data using
@@ -10,11 +10,11 @@ Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline
 
 ---
 
-### 🏗️ Architecture
+## 🏗️ Architecture
 ![Architecture](architecture/lakehouse_architecture.png)
 
 ---
-### 🛠️ Technologies Used
+## 🛠️ Technologies Used
 - Azure Data Factory (ADF)
 - Azure Databricks (Apache Spark)
 - Azure Data Lake Storage Gen2 (ADLS Gen2)
@@ -23,8 +23,8 @@ Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline
 - SQL
 - Power BI Desktop
 
-### 🔄 Data Flow
-#### 1. Bronze Layer – Raw Data
+## 🔄 Data Flow
+### 1. Bronze Layer – Raw Data
 
    -Ingested using Azure Data Factory
    -Dynamic pipelines with Lookup + ForEach + Copy activity
