@@ -11,24 +11,24 @@ Synapse Serverless SQL, and build analytical dashboards in Power BI.The pipeline
 ---
 
 ## 🏗️ Architecture
-![Architecture](architecture/lakehouse_architecture.png)
 
 ---
 ## 🛠️ Technologies Used
-- Azure Data Factory (ADF)
-- Azure Databricks (Apache Spark)
-- Azure Data Lake Storage Gen2 (ADLS Gen2)
-- Azure Synapse Analytics (Serverless SQL)
-- Parquet
-- SQL
-- Power BI Desktop
+- **Azure Data Factory** – Data ingestion & orchestration
+- **Azure Data Lake Storage Gen2** – Central data lake
+- **Azure Databricks** – Spark-based transformations
+- **Azure Synapse Analytics (Serverless SQL)** – Views & external tables
+- **Parquet** – Optimized storage format
+- **Power BI Desktop** – Reporting & visualization
+
+SQL & PySpark
 
 ## 🔄 Data Flow
 ### 🟤 Bronze Layer – Raw Data
 - Ingested using Azure Data Factory
 - Dynamic pipelines with Lookup + ForEach + Copy activity
    
-   ![WhatsApp Image 2026-01-21 at 4 33 26 PM](https://github.com/user-attachments/assets/4dfabd6f-f36b-4a6e-b6d5-362548b888ac)
+<img width="1600" height="763" alt="image" src="https://github.com/user-attachments/assets/d8232798-5d23-421d-9a92-eb16e4a302b3" />
 
 <img width="1600" height="760" alt="image" src="https://github.com/user-attachments/assets/240dd1b1-f2f3-49f2-91e5-df582f6e7437" />
 
