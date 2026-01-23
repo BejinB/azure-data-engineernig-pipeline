@@ -66,6 +66,7 @@ SQL & PySpark
       
 <img width="1600" height="764" alt="image" src="https://github.com/user-attachments/assets/b8f4c520-a92c-47eb-98d7-c320d1876dde" />
 <img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/350ed720-4e41-48df-9f87-7886a0a2d2b4" />
+<img width="1919" height="915" alt="Screenshot 2026-01-22 215158" src="https://github.com/user-attachments/assets/39e8118b-cd28-426d-8ab6-13332f33b363" />
 
 
 -Optimized for BI consumption
